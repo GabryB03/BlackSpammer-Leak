@@ -1,0 +1,462 @@
+﻿███╗░░██╗██╗███╗░░██╗░░░░░██╗░░██╗██╗██╗░░██╗░█████╗░██╗░░██╗
+████╗░██║██║████╗░██║░░░░░██║░██╔╝██║██║░░██║██╔══██╗╚██╗██╔╝
+██╔██╗██║██║██╔██╗██║░░░░░██║██╔╝░██║███████║███████║░╚███╔╝░
+██║╚████║██║██║╚████║██╗░░██║███████║██╔══██║██╔══██║░██╔██╗░
+██║░╚███║██║██║░╚███║╚█████╔╝╚════██║██║░░██║██║░░██║██╔╝╚██╗
+╚═╝░░╚══╝╚═╝╚═╝░░╚══╝░╚════╝░░░░░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝╚═╝░░╚═╝
+
+██████╗░░█████╗░░█████╗░░██████╗████████╗██╗███╗░░██╗░██████╗░  ██████╗░███████╗██████╗░██╗░░██╗░██████╗
+██╔══██╗██╔══██╗██╔══██╗██╔════╝╚══██╔══╝██║████╗░██║██╔════╝░  ██╔══██╗██╔════╝██╔══██╗██║░██╔╝██╔════╝
+██████╦╝██║░░██║██║░░██║╚█████╗░░░░██║░░░██║██╔██╗██║██║░░██╗░  ██████╔╝█████╗░░██████╔╝█████═╝░╚█████╗░
+██╔══██╗██║░░██║██║░░██║░╚═══██╗░░░██║░░░██║██║╚████║██║░░╚██╗  ██╔═══╝░██╔══╝░░██╔══██╗██╔═██╗░░╚═══██╗
+██████╦╝╚█████╔╝╚█████╔╝██████╔╝░░░██║░░░██║██║░╚███║╚██████╔╝  ██║░░░░░███████╗██║░░██║██║░╚██╗██████╔╝
+╚═════╝░░╚════╝░░╚════╝░╚═════╝░░░░╚═╝░░░╚═╝╚═╝░░╚══╝░╚═════╝░  ╚═╝░░░░░╚══════╝╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░
+
+
+▄▄▄█████▓ ██░ ██  ▄▄▄       ███▄    █  ██ ▄█▀  ██████      █████▒▒█████   ██▀███      ▄▄▄▄    ▒█████   ▒█████    ██████ ▄▄▄█████▓ ██▓ ███▄    █   ▄████ 
+▓  ██▒ ▓▒▓██░ ██▒▒████▄     ██ ▀█   █  ██▄█▒ ▒██    ▒    ▓██   ▒▒██▒  ██▒▓██ ▒ ██▒   ▓█████▄ ▒██▒  ██▒▒██▒  ██▒▒██    ▒ ▓  ██▒ ▓▒▓██▒ ██ ▀█   █  ██▒ ▀█▒
+▒ ▓██░ ▒░▒██▀▀██░▒██  ▀█▄  ▓██  ▀█ ██▒▓███▄░ ░ ▓██▄      ▒████ ░▒██░  ██▒▓██ ░▄█ ▒   ▒██▒ ▄██▒██░  ██▒▒██░  ██▒░ ▓██▄   ▒ ▓██░ ▒░▒██▒▓██  ▀█ ██▒▒██░▄▄▄░
+░ ▓██▓ ░ ░▓█ ░██ ░██▄▄▄▄██ ▓██▒  ▐▌██▒▓██ █▄   ▒   ██▒   ░▓█▒  ░▒██   ██░▒██▀▀█▄     ▒██░█▀  ▒██   ██░▒██   ██░  ▒   ██▒░ ▓██▓ ░ ░██░▓██▒  ▐▌██▒░▓█  ██▓
+  ▒██▒ ░ ░▓█▒░██▓ ▓█   ▓██▒▒██░   ▓██░▒██▒ █▄▒██████▒▒   ░▒█░   ░ ████▓▒░░██▓ ▒██▒   ░▓█  ▀█▓░ ████▓▒░░ ████▓▒░▒██████▒▒  ▒██▒ ░ ░██░▒██░   ▓██░░▒▓███▀▒
+  ▒ ░░    ▒ ░░▒░▒ ▒▒   ▓▒█░░ ▒░   ▒ ▒ ▒ ▒▒ ▓▒▒ ▒▓▒ ▒ ░    ▒ ░   ░ ▒░▒░▒░ ░ ▒▓ ░▒▓░   ░▒▓███▀▒░ ▒░▒░▒░ ░ ▒░▒░▒░ ▒ ▒▓▒ ▒ ░  ▒ ░░   ░▓  ░ ▒░   ▒ ▒  ░▒   ▒ 
+    ░     ▒ ░▒░ ░  ▒   ▒▒ ░░ ░░   ░ ▒░░ ░▒ ▒░░ ░▒  ░ ░    ░       ░ ▒ ▒░   ░▒ ░ ▒░   ▒░▒   ░   ░ ▒ ▒░   ░ ▒ ▒░ ░ ░▒  ░ ░    ░     ▒ ░░ ░░   ░ ▒░  ░   ░ 
+  ░       ░  ░░ ░  ░   ▒      ░   ░ ░ ░ ░░ ░ ░  ░  ░      ░ ░   ░ ░ ░ ▒    ░░   ░     ░    ░ ░ ░ ░ ▒  ░ ░ ░ ▒  ░  ░  ░    ░       ▒ ░   ░   ░ ░ ░ ░   ░ 
+          ░  ░  ░      ░  ░         ░ ░  ░         ░                ░ ░     ░         ░          ░ ░      ░ ░        ░            ░           ░       ░ 
+                                                                                           ░                                                            
+
+#Download Links :
+> SOME METHODS ARE BIG TO TYPE HERE, SO I've Given THE DOWNLOAD LINKS HERE -
+
+https://cdn.discordapp.com/attachments/775995050924048394/777817973288075274/NitroGeneratorAndChecker.zip
+
+https://cdn.discordapp.com/attachments/707802647100391454/709518831462121522/NITRO.MINER.rar
+
+https://cdn.discordapp.com/attachments/653519497717874688/725065290513383555/Raid-Tool-Box.rar - Best Spammer Tool with Source Code
+
+https://cdn.discordapp.com/attachments/707802647100391454/709519110375080006/Twitch.BOT.rar
+
+https://cdn.discordapp.com/attachments/707802647100391454/709518869131427871/NitroGeneratorSource.py
+
+https://cdn.discordapp.com/attachments/707802647100391454/709521271058071603/YouTube.ViewBot.Source.py
+
+https://cdn.discordapp.com/attachments/707802647100391454/710307848835432568/NordVpn_Fresh_hits.txt
+
+https://cdn.discordapp.com/attachments/707802647100391454/710308048777904179/1k_Steam_No-2FA.txt
+
+https://cdn.discordapp.com/attachments/763376524966494218/763771828044169236/Sniper-Update.zip - Update
+
+https://cdn.discordapp.com/attachments/710211674250149981/711352028852387980/RDP-FREE-METHOD.txt
+
+http://www.mediafire.com/file/fg58biqpd5h42wr/How_to_Hack_WiFi_Networks_for_Beginners.zip/file
+
+https://cdn.discordapp.com/attachments/699736628855308338/699845137852923924/SteamKeyGen.exe
+
+https://cdn.discordapp.com/attachments/653519497717874688/712797803948146708/G2A-FREE-GAMES.txt
+
+https://cdn.discordapp.com/attachments/653519497717874688/712858047432753182/Farm-Nitro.txt
+
+https://cdn.discordapp.com/attachments/653519497717874688/714231049521201212/XboxKeyMethod.rar
+
+https://cdn.discordapp.com/attachments/653519497717874688/714233065525870602/10000USD-Courses.txt
+
+https://cdn.discordapp.com/attachments/653519497717874688/714242359721853039/Netflix-1-M-FREE.txt
+
+https://cdn.discordapp.com/attachments/653519497717874688/714247105564115054/Tutorial-Dumping-HQ-Combo-Ninja.txt
+
+https://cdn.discordapp.com/attachments/715359844416356422/715376337031790592/Full-Karding-Tut-2020.txt
+
+https://cdn.discordapp.com/attachments/715359844416356422/715378453549154304/g2a-karding.txt
+
+https://cdn.discordapp.com/attachments/653519497717874688/724449200791879720/nuker.py - The Server Nuke bot
+
+1.25TB PAID COURSE COLLECTION : https://mega.nz/folder/zuB0lKjY#x3uWqSZhzvvC8EMVReDJag
+
+Fortnite NFA to FA Method : https://anonfiles.com/rfRda3xfo5/FA_Method_txt
+
+https://cdn.discordapp.com/attachments/714755511576166482/725756584810250360/cheap_games_on_steam.txt
+
+https://cdn.discordapp.com/attachments/736947541433778226/736979011590422568/NiNj4HAX-Token-Generator.exe
+
+https://cdn.discordapp.com/attachments/736947541433778226/736983072372949072/Token.Checker.rar
+
+
+Edu Mail :
+https://cdn.discordapp.com/attachments/668482975276466226/726138666929618984/EDU_Emails.pdf
+https://anonfiles.com/NaRbebmeb1/dd44833f-1553996258/EDU-Method.pdf - Method v2
+
+https://cdn.discordapp.com/attachments/662726610780422154/761811978863116318/Free_Domain.txt - UPDATED
+
+850+ WORDPRESS THEMES AND PLUGINGS : https://mega.nz/folder/MBJnSQbS#j89MKGjVDpuOcyo1LRPWqg/folder/9cZFkYBT
+
+Bot NET and IoT source code : https://anonfile.com/Lcqb34j7b8/Botnet_Sources_by_Mug_rar
+
+Amazon Checker Source code : https://anonfile.com/D5YfR7dbo1/Amazon_Giftcards_rar
+
+DDOS Scripts : https://www.sendspace.com/file/7n6he3 | Password : stresser.vip'
+
+Fortnite Checker | Source code : https://anonfile.com/Ff1943h7of/checker_rar
+
+Discord BOT Source Code : https://anonfiles.com/j0Q3h2C1o8/Zeltux_v1.2_zip
+
+30+ Commands Discord Bot code : https://glitch.com/edit/#!/free-source-liridon
+
+Discord Spammer Tool Source Code : https://anonfiles.com/T3FbNaweoa/Alpha_Spammer_rar
+
+https://cdn.discordapp.com/attachments/748334078884839455/750427303418396833/FacebookTor.txt
+
+Desync.vip Source Code : https://anonfile.com/P7L2kdp9oc/desync.vip_source_code_rar
+
+Trixware Source Code : https://anonfile.com/f2t3hfS2na/TrixWare_Source_zip
+
+njRAT Source Code : https://mega.nz/folder/mPBSQSiA#dC9YLMyOZVk72orABAwl0A
+
+
+# NEW STUFF #
+
+Collection of DDoS tools : https://mega.nz/folder/a6YmCYxA#Y69Ofo-PFI2ZWoMNxivv2A
+
+
+Proxy Lists for Free!! 
+
+1. http://www.httptunnel.ge/ProxyListForFree.aspx
+2. https://hidemy.name/en/proxy-list/
+3. http://www.freeproxylists.net/
+4. https://www.proxynova.com/
+5. http://www.proxylists.net/
+6. https://free-proxy-list.net/
+7. http://Gatherproxy.com
+8. http://free-proxy.cz/en/
+9. http://spys.one/en/
+10. https://free-proxy-list.net/
+
+
+Fraud Course Book (Fraud Bible) : https://mega.nz/folder/6ZolGT5Q#w_-2raI32a3fxGHG4fq-Nw/folder/vRwGUSqa
+
+
+
+2020 Best Tiktok AUTO LIKER & AUTO FANS
+
+Link: https://mytoolstown.com/tiktok/
+
+RDP Methods (Updated)
+https://cdn.discordapp.com/attachments/776517401793134612/777847724828917761/Best-RDP-Methods-2020.txt
+
+FREE PSN Money Methods: 
+https://cdn.discordapp.com/attachments/776517401793134612/777847726209237002/Free-PSN-Money_Method.txt
+
+80 UHQ Methods leak:
+https://cdn.discordapp.com/attachments/776517401793134612/777847729451171850/80-UHQ-Methods-Leak.txt
+
+Trendster 1.0 METHODS LEAK! 90$ Day
+https://cdn.discordapp.com/attachments/776517401793134612/777847743862538270/Trendster-v1.0.pdf
+
+
+
+
+
+
+################## NUDES Stuff #####################
+
+Bella Thorne Nudes Leak : https://leakedpie.com/yum-leaked-bella-thorne-nude-pics/ | https://mega.nz/folder/LJFEDSYC#4hIOoOhLh9438OPh7HOigg
+Rare Nude Contents : https://mega.nz/folder/J7h0VQ6Y#TAZesPxFugtNObC5udgzJQ
+
+
+Nude Leaks !
+
+https://clipwatching.com/lggfqueqssgi/Aa...1.mp4.html
+https://clipwatching.com/w19v0xbh59yu/Aa...e.mp4.html
+https://clipwatching.com/b13acuvystnr/Am...).mp4.html
+https://clipwatching.com/qb3998u44yq5/Ap...s.mp4.html
+https://clipwatching.com/pw2w5wxaayrs/Be...1.mp4.html
+https://clipwatching.com/f805b5vl57at/Be...2.mp4.html
+https://clipwatching.com/lxgmghigmpal/ey...s.mp4.html
+https://clipwatching.com/9495nkhk92by/Ho...s.mp4.html
+https://clipwatching.com/7iq2g8xboo23/Mi...l.mp4.html
+https://clipwatching.com/70mwgedlcel7/Nu...1.mp4.html
+https://clipwatching.com/k99smhmoqn4x/Nu...2.mp4.html
+https://clipwatching.com/rrg4i6v030ip/P3...2.mp4.html
+https://clipwatching.com/tzve9ornyz5e/P3...3.mp4.html
+https://clipwatching.com/5jbnqwg7li3k/Ph...F.mov.html
+https://clipwatching.com/gpme6v1cbtn5/pie_2.mp4.html
+https://clipwatching.com/u5xyg029olo0/Pi...1.mp4.html
+https://clipwatching.com/pcr0r2fdp03f/Sc...l.mp4.html
+https://clipwatching.com/shorw5mo0y2g/So...1.mp4.html
+https://clipwatching.com/8gebtdxqztel/So...2.mp4.html
+https://clipwatching.com/rr0oqzi1ldi1/th...s.mp4.html
+https://clipwatching.com/mgksiyf6pxcb/th...l.mp4.html
+New Onlyfans Leaks Free Videos;
+https://clipwatching.com/b13acuvystnr/Am...).mp4.html
+https://clipwatching.com/lxgmghigmpal/ey...s.mp4.html
+https://clipwatching.com/9495nkhk92by/Ho...s.mp4.html
+https://clipwatching.com/rr0oqzi1ldi1/th...s.mp4.html
+
+
+##########################################################
+
+
+
+
+
+
+
+
+Writable Methods :
+
+> TikTok ViewBOT
+https://fireliker.com/
+Sign up with tiktok username
+
+
+> BITCOIN METHOD
+https://iancoleman.io/bip39/#english
+https://www.blockchain.com/
+https://temp-mail.org/en/
+ON THE MNEMONIC SITE THERE YOU NEED TO PUT GENERATE MNEMONIC NUMBER 12
+THEN JUST CLICK GENERATE
+COPY THE GENERATED MNEMONIC CODE,
+GO TO BLOCKCHAIN ACCOUNT RECOVERY
+https://login.blockchain.com/#/help
+CLICK RECOVER FUNDS
+PASTE THE GENERATED MNEMONIC CODE
+THEN GO TO TEMP MAIL AND COPY THE MAIL ADDRESS AND PASTE THERE, TAP CHANGE PASSWORD
+AFTER THAT YOU WILL GET FREE BITCOINS, [ SOME OF THEM MAY NOT CONTAIN BALANCE ]
+
+
+
+> GETTING SENSITIVE INFO BY GOOGLE DORKS :
+
+Google Dorking is a really powerful tool to find many results, google doing their job really well, too well to be honest,
+ and these options give the ability to take your creativity to the next level if you know what to look for 
+— you can find things you never thought could be found in public
+      
+   The Dork is :    intitle:”index of/” “cfdb7_uploads”
+
+
+
+> Free Domain & SSL & Hosting
+
+FREE DOMAIN
+http://www.dot.tk/en/index.html?lang=en
+https://www.freenom.com/en/index.html?lang=en
+
+FREE HOSTING
+https://infinityfree.net/
+https://www.freehosting.com/
+
+FREE SSL
+https://www.sslforfree.com/
+https://zerossl.com/
+https://letsencrypt.org/
+
+
+
+
+> PayPal Credit Card Bins
+
+===>
+Bins : 
+515462003166xxxx
+515462001140xxxx
+515462005152xxxx
+Date: 04/30/2020
+
+
+Address : 
+Street: Stone St
+City: New York
+State: New York
+Zip Code: 10004
+Number Format: 996xxxxxxx
+Ip Usa 🇺🇸
+===>
+
+> Spotify Premium BIN
+
+==>
+BIN:406068
+IP:USA
+ZIP: 10004
+==>
+
+FAQ : How to use the bins? / how to get CC from bins?
+
+Answer : 
+
+- Place to Generate using bins : https://namso-gen.com/
+- Copy the Bin and Paste in Bin area.
+- Set Amount as much as you want.
+- Click Generate.
+- And use where-ever you want.
+
+> Paypal Unlimited 
+
+1. Install any VPN and connect to Canada. I recommend (Urban VPN)
+2. Clear your history and all of the cookies.
+3. Make a Canadian PayPal account using a proper address, use this: https://fake-it.ws/ca/
+4. Verify the email and make sure to use a Canadian phone number.
+Free Alternatives for the phone number: 
+Install on your phone the app called Talkaton or TextNow, both worked pretty well for me. I had to use a VPN on my phone number to make those apps worked, one called ThunderVPN.
+Paid Alternatives for the phone number:
+https://smspva.com/ or any other SMS Verification Service. - costs around 0.5$, more or less.
+
+
+> Instagram Followers 
+
+- https://klastakipci.com/
+- 20 Free Followers a Day
+
+
+> Method for Google Drive STORAGE Reeeee
+
+1. go to https://td.fastio.me/
+2. Write a random storage name
+3. Write your google mail adress
+4. Select a random CH
+
+>>>> ENJOY MOTHERFUCKERRRRRRR <<<<
+
+
+
+> UNLIMITED GMAIL ACCOUNTS
+
+Open Guest Mode in Chrome
+Go To YouTube.com
+Start Random Video .
+Give Like & Do Sign In.
+Create New Account 
+Type Required Info
+Ignore Number/Recovery Email
+Create Account & Click Agree TOS
+
+
+> FREE RDP METHOD!! !!! REEEEEEEEE
+
+ 1. Go To Any TempMail Services Such: https://smailpro.com/ 
+2. Grab Fake Email & Go To http://ericom.com/ 
+3. Enter Fake - Random Details & Enter The Temp Email
+4. Now Click On Virtual Desktop & Complete Captcha
+5. Done! You Got Your Free RDP.
+
+
+
+
+
+
+
+
+############## SPOTIFY GIFT CODE GEN AND CHECKER METHOD ########################
+Go to https://www.spotify.com/us/redeem/
+Sign in.
+Press ctrl+shift+j (to open console).
+Paste the following code in and click enter.
+Follow the prompts and begin generating+checking!
+Code:
+var speed = prompt("Speed of checker/gen (Recommended 500 for fast pcs, 1000 for slow)")
+var zip = prompt("Zipcode (leave blank for default)") + "10008"
+function generateCode() {
+ var code = "";
+ var chars = "0123456789";
+ for (var i = 0; i < 19; i++)
+   code += chars.charAt(Math.floor(Math.random() * chars.length));
+ return code;
+}
+function main() {  
+   document.getElementById("redeem_code_token").value = generateCode();
+   document.getElementById("redeem_code_zip-code").value = zip;
+   document.getElementById("redeem_code_submit").click();
+}
+
+setInterval(function() {
+   main();
+}, speed);
+
+NOTE: If there is no "zip code" section, please use the code below.
+
+Code:
+var speed = prompt("Speed of checker/gen (Recommended 500 for fast pcs, 1000 for slow)")
+function generateCode() {
+ var code = "";
+ var chars = "0123456789";
+ for (var i = 0; i < 19; i++)
+   code += chars.charAt(Math.floor(Math.random() * chars.length));
+ return code;
+}
+function main() {  
+   document.getElementById("redeem_code_token").value = generateCode();
+   document.getElementById("redeem_code_submit").click();
+}
+
+setInterval(function() {
+   main();
+}, speed);
+
+If you see recaptcha try changing your vpn/etc
+
+
+
+
+
+
+
+
+
+########################### 7 Methods FOR RDP ################################
+
+Method 1:
+Following Sites Provide Free VPS:
+http://vpswala.org/
+http://ohosti.com/vpshosting.php
+https://gratisvps.net/
+https://my.letscloud.io/sign-up/
+https://developer.rackspace.com/
+https://www.vultr.com/
+https://www.cloudsigma.com/
+https://www.digitalocean.com/
+http://ezywatch.com/freevps/
+https://yellowcircle.net/
+https://www.ctl.io/free-trial/
+https://www.ihor.ru/
+https://www.neuprime.com/l_vds3.php
+https://www.apponfly.com/en/
+https://www.skysilk.com/
+https://sadd.io/
+
+Method 2:
+Enter https://vps.apponfly.com/
+Press F12 and open Network
+Follow these Images: https://imgur.com/a/JgnUYqc
+
+Method: 3
+Requirements: - Google account - Credit Card (Can use Yandex VCC)
+
+1. Go to Google Cloud | https://cloud.google.com/free/
+2. Register and fill out all the details. Cool, Now you have 300$ free in a VPS which you can have 32 cores on, etc. enjoy)
+
+
+Method 4:
+Go to: https://turbo.net/
+Now Register an account: Select Program you want to use (Preferably Google Chrome) Enjoy Free RDP!
+ 
+Method 5:
+Get a Lifetime Free VPS:
+1. Order the 'BackupHD Classic Free' euserv.com/en/cloud/reinforcement HD-free.php
+2. Log in into the client board and check if the contract has been made.
+3. Wait until the contract has been handled (this takes a few hours). You will get an email when it's done.
+4. Click on select behind your contract
+5. Click on Innovation and Test-Center in the left menu
+6. Click on Requested Participation behind CBCI closed Beta Test
+7. Wait for your contract to be handled (this can take a few-hours). Presently you can install your server through the customer panel, and you have a little backup space as well.
+
+
+Method 6:
+Get a Free VPS/RDP under 5 Minutes:
+1. Go to serveroffer.lt and peruse their site for one moment or so until you get a message like this https://gyazo.com/c4...b2a6f5b77cc9d68 2. Answer them pleasantly.
+3. They will ask you on what bundle you need
+4. Pick one of their services, like VDS-10 It's excessive; I think VDS-3 or VDS-4 if possible
+5. Attempt with different servers on the off chance that you need
+6. They will likewise request an account, simply make it with fake data (fake info)
+7. They will also get some information about the OS, pick a Debian 9 since Windows commits to have an OS running and it's a waste of resources
+8. You will get your server info in your email
+
+Method 7:
+First, open the following Link and Sign Up to get your $10 credit. (For non-ref interface - > https://www.digitalocean.com/[This does not give you $10 credit] While filling your billing details, click on "Have a Promo Code?" at the bottom of the page. Enter any of the Promo codes to get additional credit: DOPRODUCT15 (Get $15 FREE) From the first step, you will get your first $10 credit, and by utilizing extra promotion codes, you can get up to $35 of all-out credits. Note: Some codes give more credit on higher plans. Note: If your code doesn't work at that point open a ticket and your issue ought to be solved. For Credit Card - > Utilize a VCC with low an incentive inside (For check), the rest you can utilize fakenamegenerator to fill in the details. Multi-month VPS = $5 So you'll get 5 months VPS Method 9: 1. Go to https://dash.hokoclo...login#/register 2. Register and Confirm account from your email. 3. Go to the VPS segment - FREE VPS 4. Select Rule One - Rule One 5. Select the free plan 6. Select the Desired Server. 7. Your FREE VPS is Ready From Collection of all these Free VPS/RDP Sources. Few may not work depending on altering their TOS with time.

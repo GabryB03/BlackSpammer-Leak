@@ -1,0 +1,79 @@
+FULL CARDING TUTORIAL"
+Carding is a Method of Stealing the Information of Someone’s Credit Card and Using it to Buy Things from Online Stores, Using with the Access of that Credit Card. Thieves or Hackers, Who Steals these details Usually Calls Carders. They Buy Goods with these Credit Cards or Sell’s it Online. Below I have Included the Methods, That they Use in Carding. This is A Complete Guide to What is Carding? And How to Do Carding. This Guide Consists a Complete Carding Tutorial, So you can Learn All About Carding.
+Carding is not Easy, As Simply Going to Site and Buy Some Stuff. If you want to Learn Carding, you have to Give it time and Practice and Have to use your Mind Yourself. I will just provide some Great Carding Techniques, A Complete Carding Tutorial, List of Some Dump Sites and Links of Carding Forums But you have to Learn it own. The Success Rate in Carding is very low Because Nowadays, Many Sites get you and Cancel your Order, So It needs very Patience and Time to learn it. This is a Guide for Especially a Noobie If he Wants to learn Carding. So Read Full Post, And If you will have any Doubt, Just Hit the comment Section, Below the Post. ????
+Note: Carding is an Illegal Process, I don’t Recommend anyone to try this. This Carding Tutorial is only for Educational Purpose. If you try to do Carding, Then I will not Responsible for Any Damage.
+What is Carding?
+Carding is a Process, Where a User or Carder purchase Goods from a Hacked or Stolen Credit Card Details. Hackers Steal the Details of Credit Cards And then Buy Stuff from these details. Carding is an Art of Technique, If you want to learn Carding, You have to give it your time. If you are Noob, Then it is expected that you’ll fail some times, But the Key of Success is, Not to Stop and Keep Practicing.
+The Success Rate for Carding is very Low, As their if the Site gets any Unknown Transaction from a Hacked or Stolen Credit Card info, They Usually Reversed the Transaction or Cancel the Order Placement.
+However, Carding can Only be Done using US Cards, As these Cards does not require any Pin Verification or OTP’s. So If you are Using an Indian Credit Card, Then It is Highly Secured as they Won’t Work Without OTP Verification or 3D Secure Verification Unless International Transaction Mode is Enabled.
+How to do Carding? Complete Carding Tutorial
+Below I have Explained Everything in Deep, Plz Read and Share it with your Friends. ????
+Basic Things You Need for Carding: Carding Tutorial
+There may be So many Things, But I have Added the Most Important and Basic Ones in this List, Below I also Explained What these things are, And How it will help you in Learning and Understanding this Carding Tutorial. ????
+A ComputerCC Cleaner or All in One CleanerMAC Address ChangerSOCKSCCRDP (Optional)Drop( Optional)
+Computer
+Well, This is an Essential part, If you are going to do Carding. For Carding, I will Always prefer you to Use Computer because it has so many things and It is the Safest Way to Card. Many of Carders Use Mobile for Carding But It is not Safe, So I Prefer having a Computer First. But If you don’t have a Computer, then I have included the Safest way to Card with Smartphone. You can Check that Below. ????
+CC Cleaner
+It is a very Useful tool that mainly uses for Cleaning all the Browsing History, Clearing Cookies, Caches and Temp Files. This is a very handy tool, But not so many people know about it. Flash cookies are different from Regular Cookies, As they don’t Ask for permission to Install Cookies on your PC, and Saves All the info in your Browser, This Tool Even Clear all the Flash Cookies As Well. ????
+MAC Address Changer
+It is a Unique Identifier, That Assigned in an Network Interface Card. It is Unique of Every Computer. MAC Address Changer Allows you to spoof MAC Address of your Computer.
+Socks
+It is a Network Internet Protocol, Which Mainly Routes Network Packets between Server and Client using a Proxy Server. So, We’ll use it for Hiding Our Main Location and Proving a Fake Location to the location of Credit Card’s Holder for Making the Transaction Successful. Generally, It is more Secure than the VPN, as It won’t leak your DNS Details.
+RDP
+RDP Also knows as Remote Desktop Protocol, Which Allows you to graphically connect with a Computer Over a Network. It will connect you with any Computer Connected as an RDP on Any Country and Make yourself Anon. This is not Required but you can Use it for Safety Purposes.
+Drop
+Well, It is a Service, Which usage for getting Shipping Address for Carding. Suppose If you are from Pakistan And Carding with a US Credit Card. If you’ll add Delivery Address as Pakistan then There are so many chances to Cancel the Order, But If you will use a US Address, then there will be 95% Chances of Order Success. If you have any Relatives their than It is OK, But If you don’t have anyone than This service will help you. It will provide you an Address of that country, And Take Delivery and then Send that Parcel to you. it charges some money for it, But It will be worth in Investing in it. ????
+Credit Card
+This is the Essential Part of Carding, If you Understand what is it, Half of your Work will End Up Here. Whenever you’ll buy a Credit Card from any Online Shop, you will receive it in a Virtual Notepad File or Something with the Below format.
+Types of Credit Cards
+Below I Have Added some types of CC, You’ll Get while Buy it from Any Shop. ????
+Regular Credit Card
+NAME:ADDRESS:CITY:STATE:ZIP CODE:TEL. BILLING NUMBER:CARD NUMBER:CARD EXP DATE:CVV CODE:
+Well, This is the Minimum Information you’ll get from a CC whenever you’ll Buy it. If you’ll not Get any of these Details, Then you can’t do anything with that CC. You are Out of Luck this Time. With this CC you can Card Simple Sites.
+Partial Full-Info CC
+In these Card, You will get some Additional Information with the Details Mention Above. This Information are
+Social Security Number (SSN):Date Of Birth (DOB):******’s Maiden Name (MMN):
+with the Help of this Info, You can Even Card C2IT and Even Paypal. So this is Great if you’ll get these Details too. ????
+Full-Info Credit Card
+This Card Provides you full Details in it. These Details are Below
+BANK ACCOUNT NUMBER:ROUTING NUMBER:BANK NAME:BANK NUMBER:DRIVERS LICENSE NUMBER:PIN NUMBER (For CC or ATM card)
+If you’ll have this info, You can Card Anything. Yes, I said Anything.
+Types of Credit Cards
+Below are some of the Companies, Which Provides Credit Cards. I must Suggest you Use AMEX Premium, As It has mainly Usage by Many of the Carders. These Companies are
+AMEXVISADISCOVERMasterCard
+BIN- What is It?
+BIN Stands for Bank Identification Number, It is the First 6 Digits of your Credit Card, Suppose if your Credit card number is 4305873969346315 this, Then your BIN will be 430587. I will suggest you Collect some Information Related to BIN, This may help you in Learning Carding Easily. For BIN’s Bins Pro And BinLists are Best. This will help you in Learning Almost Everything about Bins. Must Do a check at these sites.
+How to Card? Carding Tutorial
+Well, Before Starting makes Sure you have gathered all the Required Things I Earlier Mentioned in the Post. For the Links of Download and Purchase See the End of Post. ????
+Set Up Socks in Mozilla
+Just Open Firefox, Than Go to Options and Click on Advanced Settings. After that go to Network and then A Pop-Up will appear. Select the fourth option of Manual Proxy Configuration. Now type the Proxy and Port Below, That’s it.
+After Adding the Proxy there, Just Hit OK and Restart the Firefox and Now you’ll be Connected with Secure Socks.
+Note: Make Sure to Buy Socks with the Matching Location of the Address in Credit Card. Suppose If Credit Card holder is From South Africa, Your Socks are also of South Africa.
+How to Carding? Step By Step Tutorial of Carding
+1. Create a New Email Account with the Matching Name of CC Holders Name is johny sins then Make Something Like johnysins143@gmail.com
+Note: Never Use Disposable Emails for Carding.
+2. Run RDP and Connect with your Host, In case if you are not Using RDP Follow the Steps Below-
+3. Change All the MAC Addresses Using MAC Address Changer.
+4. Clear All the History of Your PC Including Cache, Temp Files using CC Cleaner.
+5. Set Up Sock5 in Mozilla Firefox, Check Above I Have Explained How to Setup Socks in Mozilla.
+6. Now, Restart your Browser and Visit This link to Check is your IP Changed with the Location of CC holder or Not.
+7. Open Any Local Online Market Store, I will suggest you Use anyone which is from your own country.
+8. Register Account with the Name of CC Holder and Email you made for Carding.
+9. Try to Add an Item to your Cart, The item should Below USD $500, Never use Big Orders for the First Transaction.
+10. In Shipping Address, Add the Address where you want to Deliver the Product.
+11. Now, Go for the Payment Option, Choose Credit Card for Payment. ????
+12. Enter All the Credit Card Details you Received when you bought the Credit Card.
+13. For Billing Address, Use the Address of CC Holder.
+If you follow all the Steps Above, your Order will be Successfully Placed. Now wait for Order to Arrive, When the Order will arrive, the Courier boy will make a Call to you, And When you’ll go for taking the Product, he will ask you for Any ID Proof, Try to Provide them any Fake ID, or If you’ll not able to make Fake ID, Comment, we’ll make one for You. ????
+Note: Never try to Give real ID Proof while getting the Delivery.
+How to Card with Android Smartphone
+Well, I won’t suggest to do it with Mobile or Android Smartphone, Either You can Try. I personally Suggest using a PC for it. ????
+1. A Rooted Android Device with Some Apps Installed, Apps Like- IMEI Changer, CCleaner, Android ID Changer, Proxy Droid, and Phone ID Changer.
+2. Change IMEI, Android ID and Phone ID Using Apps.
+3. Connect SOCKS Proxy Using Proxy Droid App.
+4. Now Follow All the Steps of Carding Mentioned Above. ????
+List Of Sites for Carding?
+Well, There is no one Site which can’t be Carded, Its All Depends on the Credit Card you have. It all depends on your methods and Active mind.
+How to Check Balance on Credit Card?
+Follow the Steps Mention Below, the Steps will only work with US and UK Based CC’s.
+Check your BIN in www(.)binspro(.)com and get your bank name. For example of the BIN (430587), the bank is Capital One, USA.Now search phone number bank in google. For this bank, it’s +1-800-935-9935Call the number on Skype, it’s free since it’s toll-free number.Now the automatic robot will ask you some info. Ex. CCN, CVV etc.Now put your info by using your keyboard.It will automatically tell you the CC balance.

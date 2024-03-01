@@ -1,0 +1,6 @@
+     private String USER_PATH_URL = "https://blackgriefing.com/api/v5/blackspammer/@me/";
+        private String USER_PATH = "/@me/";
+        private String AUTH_URL = "https://blackgriefing.com/api/v5/blackspammer/auth";
+        private String UPDATE_URL = "https://blackgriefing.com/api/v5/blackspammer/resources?v=";
+        private String API_URL = "https://blackgriefing.com/api/v5/blackspammer";
+        private String clientId = "mfPLT9asmLA83ELpmtIopLyg";

@@ -1,0 +1,84 @@
+Method 1: 
+Following Sites Provide Free VPS:
+
+http://vpswala.org/
+http://ohosti.com/vpshosting.php
+https://gratisvps.net/
+https://my.letscloud.io/sign-up/
+https://developer.rackspace.com/
+https://www.vultr.com/
+https://www.ionos.com/enterprise-cloud?i...ofitbricks
+https://www.cloudsigma.com/
+https://www.digitalocean.com/
+http://ezywatch.com/freevps/
+https://yellowcircle.net/
+https://www.ctl.io/free-trial/
+https://www.ihor.ru/
+https://www.neuprime.com/l_vds3.php
+https://www.apponfly.com/en/
+https://www.skysilk.com/
+https://sadd.io/
+Method 2:
+Enter https://vps.apponfly.com/
+Press F12 and open Network
+Follow these Images: https://imgur.com/a/JgnUYqc
+Method: 3
+Requirements:
+- Google account
+- Credit Card (Can use Yandex VCC)
+1. Go to Google Cloud | https://cloud.google.com/free/
+2. Register and fill out all the details.
+Cool, Now you have 300$ free in a VPS which you can have 32 cores on, etc. enjoy)
+Method 4:
+Go to:
+https://turbo.net/
+Now Register an account:
+Select Program you want to use (Preferably Google Chrome)
+Enjoy Free RDP!
+Method 5:
+1. Go to: https://www.vpsserver.com/?affcode=0e0f79a9d02f
+2. Register and verify your email
+3. Select what kind of OS you want - windows server/ubuntu
+4. Now Wait for 30 minutes for the server to build
+5. Now go to the control panel and get the user/pass for remote desktop
+6. Cool, Congratulations Now you have a free VPS
+Method 6:
+Get a Lifetime Free VPS:
+1. Order the 'BackupHD Classic Free' euserv.com/en/cloud/reinforcement HD-free.php
+2. Log in into client board and check if the contract has been made.
+3. Wait until the contract has been handled (this take a few hours). You will get an email when it's done.
+4. Click on select behind your contract
+5. Click on Innovation and Test-Center in the left menu
+6. Click on Requested Participation behind CBCI closed Betatest
+7. Wait for your contract has been handled (this can take few-hours). Presently you can install your server through customer panel, and you have a little backup space as well.
+Method 7:
+Get a Free VPS/RDP under 5 Minutes:
+1. Go to serveroffer.lt and peruse their site for one moment or so until you get a message like this https://gyazo.com/c4d311cd614af5239b2a6f5b77cc9d68
+2. Answer them pleasantly.
+3. They will ask you on what bundle you need
+4. Pick one of their services, like VDS-10 It's excessive; I think VDS-3 or VDS-4 if possible
+5. Attempt with different servers on the off chance that you need
+6. They will likewise request an account, simply make it with fake data (fake info)
+7. They will also get some information about the OS, pick a Debian 9 since Windows commits to have an OS running and it's a waste of resources
+8. You will get your server info in your email
+Method 8:
+First, open the following Link and Sign Up to get your $10 credit.
+(For non-ref interface - > https://www.digitalocean.com/[This does not give you $10 credit]
+While filling your billing details, click on "Have a Promo Code?" at the bottom of the page.
+Enter any of the Promo codes to get additional credit:
+DOPRODUCT15 (Get $15 FREE)
+From the first step, you will get your first $10 credit, and by utilizing extra promotion codes, you can get up to $35 of all-out credits.
+Note: Some codes give more credit on higher plans.
+Note: If your code doesn't work at that point open a ticket and your issue ought to be solved.
+For Creditcard - > Utilize a VCC with low an incentive inside (For check), the rest you can utilize fakenamegenerator to fill in the details.
+Multi-month VPS = $5
+So you'll get 5 months VPS
+Method 9:
+1. Go to https://dash.hokocloud.com/login#/register
+2. Register and Confirm account from your email.
+3. Go to the VPS segment - FREE VPS
+4. Select Rule One - Rule One
+5. Select the free plan
+6. Select the Desired Server.
+7. Your FREE VPS is Ready
+From Collection of all these Free VPS/RDP Sources. Few may not work depending on altering their TOS with time.
